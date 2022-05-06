@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Run </title>
+</head>
+<body>
+    <style>
+body{
+    margin:0;
+    background-color:black;
+    padding: 10px 20px;
+    background-image: url(../GardenRunImg/Game_bg.png);
+    
+}
+</style>
+<h1>Garden Run</h1>
+<h3 style="color:  black; font-family: sans-serif; margin-bottom: 6px;">
+    <span>Score:  </span> <span id="scoreEl">0</span>
+</h3>
+
+<h1 style="color:  red; font-family: sans-serif; margin-bottom: 6px;">
+    <span id="losingMessage"></span>
+</h1>
+
+<h1 style="color:  blue; font-family: sans-serif; margin-bottom: 6px;">
+    <span id="winningMessage"></span>
+</h1>
+
+<canvas> </canvas>
+<script src="GardenRun.js"></script>
+<p>This is a Javascript game created by Mukund Aravapalli based on modifications made from a pac man game created by Christopher Lis</p>
+
+
+</body>
+    
